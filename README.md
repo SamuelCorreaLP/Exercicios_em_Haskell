@@ -5,9 +5,7 @@ Haskell	 que	 os	 resolva.	 Não	 se	 pode	 usar	 nenhuma	 função	 pré-defini
 biblioteca	de	Haskell	ou	qualquer	outra	de	terceiros	a	não	ser	aquelas	vistas	em	
 aula	 (nos	 slides),	 mas	 é	 permitido	 reimplementar	 alguma	 função	 caso	 julgue	
 necessário.
-1) Defina	 uma	 função	 recursiva	 para	 o	 cálculo	 de	 potência	 de dois	
-números	inteiros,	onde	o	primeiro	número	é	elevado	ao	segundo.	Não	
-se	pode	usar	o	operador	de	potência	(^).
+1) Defina	 uma	 função	 recursiva	 para	 o	 cálculo	 de	 potência	 de dois	números	inteiros,	onde	o	primeiro	número	é	elevado	ao	segundo.	Não	se	pode	usar	o	operador	de	potência (^).
  Ex.: > potencia 2 3 -- 8=2*2*2
  8
  
@@ -15,8 +13,7 @@ se	pode	usar	o	operador	de	potência	(^).
  Ex.: > somaImpares [1,3,2,7,4,6,5] -- 16=1+3+7+5
  16
  
-3) Substituir	 todos	 elementos	 de	 um	 determinado	 valor de	 uma	lista	 de	
-inteiros	por	um	outro	valor.
+3) Substituir	 todos	 elementos	 de	 um	 determinado	 valor de	 uma	lista	 de	inteiros	por	um	outro	valor.
  Ex.: > substituir 1 0 [1,2,1,3,1]
  [0,2,0,3,0]
  
@@ -26,13 +23,11 @@ inteiros	por	um	outro	valor.
  > primo 0
  False
  
-5) Verifique	 se	 um	 número é perfeito,	 isto	 é,	 é	 igual	 a	 soma	 de	 seus	
-divisores	(exceto	o	próprio número).
+5) Verifique	 se	 um	 número é perfeito,	 isto	 é,	 é	 igual	 a	 soma	 de	 seus	divisores	(exceto	o	próprio número).
  Ex.: > perfeito 28 -- 28=1+2+4+7+14
  True
  
-6) Função	que	 retorna	uma	lista	com	a	 representação	em	binário	de	um	
-número	inteiro.
+6) Função	que	 retorna	uma	lista	com	a	 representação	em	binário	de	um	número	inteiro.
  Ex.: > binario 20
  [1,0,1,0,0]
  
@@ -58,8 +53,7 @@ número	inteiro.
  Ex.: > linearizar [ [1,2], [5], [0,4,2] ]
  [1,2,5,0,4,2]
  
-12) Deslocar todos	 elementos	 de	 uma	 lista	 de	 inteiros	 k	 posições	 para	 a
-esquerda.
+12) Deslocar todos	 elementos	 de	 uma	 lista	 de	 inteiros	 k	 posições	 para	 a esquerda.
 Ex.: > shift 3 [1,5,6,7,3,4,1] -- k=3
  [7,3,4,1,1,5,6]
  
@@ -67,13 +61,10 @@ Ex.: > shift 3 [1,5,6,7,3,4,1] -- k=3
  Ex.: > removerFim 2 [1,2,3,4,5,6] -- n=2
  [1,2,3,4]
  
-14) Dadas	duas	listas	ordenadas	de	forma	crescente,	obter	a	lista	ordenada	
-resultante	da	intercalação	delas.
+14) Dadas	duas	listas	ordenadas	de	forma	crescente,	obter	a	lista	ordenada	resultante	da	intercalação	delas.
  Ex.: > intercalar [1,5,10] [2,7,9,20,25]
  [1,2,5,7,9,10,20,25]
  
-15) Desenvolver	uma	solução	para	um	quiosque	de	saque	eletrônico	que,	
-para	um	determinado	valor,	deve	entregar	o	menor	número	de	cédulas	
-de	R$1,	R$5,	R$10,	R$50	e	R$100,	da	menor	para	a	maior.
+15) Desenvolver	uma	solução	para	um	quiosque	de	saque	eletrônico	que,	para	um	determinado	valor,	deve	entregar	o	menor	número	de	cédulas	de	R$1,	R$5,	R$10,	R$50	e	R$100,	da	menor	para	a	maior.
  Ex.: > trocar 162
  [1, 1, 10, 50, 100]
